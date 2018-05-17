@@ -1,696 +1,707 @@
 <?xml version="1.0" encoding="utf-8"?>
-<strings>
-  <language name="Basa Sunda" base="Indonesia" variant="Basa Sunda" owner="limatiga"/>
-  <string key="NotInGame">
-    <value>Maneh can abus kanu game manapun.</value>
-  </string>
-  <string key="PlayerStartedGame" isgif="true">
-    <!-- 0 - Player name -->
-	<value>{0} geus ngabalakan kaulinan di Tatar Pasundan! ketik /join keur miluan ulin.</value>
-	<value>Kaulinan di Tatar Pasundan geus dibalakan ku {0}! Geura ketik /join ngarah teu ngahuleng wae!</value>
-  </string>
-  <string key="PlayerStartedChaosGame" isgif="true">
-    <!-- 0 - Player name -->
-    <value>{0} geus ngabalakan kaulinan di Tatar Pasundan (Mode Rusuh)! ketik /join keur miluan ulin.</value>
-	<value>Kaulinan di Tatar Pasundan (Mode Rusuh) geus dibalakan ku {0}! Geura ketik /join ngarah teu ngahuleng wae!</value>
-  </string>
-  <string key="NoJoinGameRunning">
-    <value>Kaulinan geus dimulai, tungguan kaulinan sageus ieu ketik /nextgame</value>
-  </string>
-  <string key="AlreadyJoined">
-    <value>Maneh geus milu ulin, sakali weh ketik /join na kehed!</value>
-  </string>
-  <string key="MinuteLeftToJoin">
-	<value>Sesa waktu keur miluan kaulinan kari samenit deui, ketik /join keur milu dina kaulinan ieu.</value>
-  </string>
-  <string key="SecondsLeftToJoin">
-    <!-- 0 - remaining seconds (number) -->
-    <value>Sesa waktu keur miluan kaulinan kari {0} detik deui, geura ketik /join euy!</value>
-  </string>
-  <string key="NotEnoughPlayers">
-	<value>Aing mah! Euweuh jelemaan kieu, moal weh maen teh? Geura di geroan sina kadarieu, omat edankeun!</value>
-	<value>Atuh da meni jempling kieu euweuh nu maen, bedo weh maen teh!</value>
-  </string>
-  <string key="StartingGameWait">
-	<value>Kaulinan geus dimulai, peran masing-masing keur dibagikeun. Omat cek PM ti kuring!</value>
-	<value>Kaulinan parantos dikawitan! Antosan sakedap</value>
-  </string>
-  <string key="BannedForExploit">
-    <!-- 0 - Player name -->
-    <value>Akun {0} teu bisa milu dina kaulinan ieu. (ngaran teu meunang make / di awal)</value>
-  </string>
-  <string key="ChangeNameToJoin">
-    <!-- 0 - Player name -->
-    <value>{0}, ganti heula ngaran ngarah bisa join!</value>
-  </string>
-  <string key="PlayerLimitReached">
-    <value>Hampura daks, nu maen geus pinuh!</value>
-  </string>
-  <string key="PlayerJoined">
-    <!-- 0 - Player name -->
-    <!-- 1 - current players -->
-    <!-- 2 - Minimum players -->
-    <!-- 3 - Maximum players -->
-    <value>{0} geus milu dina kaulinan Ajag-ajagan. {1} pemaen nu geus miluan, paling saeutik {2} pemaen, paling loba {3} pemaen.</value>
-  </string>
-  <string key="PMTheBot">
-    <!-- 0 - Player name -->
-    <!-- 1 - bot username -->
-    <value>{0} kudu ngaklik heula tombol "Start Me" nu aya dihandap atau pm {1} terus klik start.
-	 Maneh moal bisa kadaptar dina kaulinan saacan ngastart bot.</value>
-  </string>
-  <string key="DeadFlee">
-    <value>Kabur kamana siah kehed?! Maneh geus modar lain? Abus deui ka kuburan ditu, ngalilieur HIH!</value>
-  </string>
-  <string key="Flee">
-    <!-- 0 - Player name -->
-    <value>{0} sieuneun daks! Teu maen pisan!</value>
-    <value>{0} mangpret tina game. Teu cees!</value>
-  </string>
-  <string key="PlayerRoleWas">
-    <!-- 0 - Player name -->
-    <!-- 1 - Player role -->
-    <value>{0} nyaeta {1}</value>
-  </string>
-  <string key="CountPlayersRemain">
-    <!-- 0 - Number of players -->
-    <value>{0} Pemaen nu nyesa.</value>
-  </string>
-  <string key="DidntAsk">
-    <value>Saha? NU NANYA! Urang mah teu nanya maneh bebel!</value>
-  </string>
-  <string key="NotPlaying">
-    <value>Teu milu ulin, tong riweuh!</value>
-  </string>
-  <string key="NoPlayerName">
-    <value>Hampura ngaran nu dipilih euweuh!</value>
-    <value>Maneh milih saha?</value>
-  </string>
-  <string key="AnswerNonValid">
-    <value>Jawaban maneh salah!</value>
-  </string>
-  <string key="WolfVotedKill">
-    <!-- 0 - wolf teammate name -->
-    <!-- 1 - Victim name -->
-    <value>{0} geus milih rek ngahakan {1}</value>
-  </string>
-  <string key="PlayerVotedLynch">
-    <!-- 0 - Voter name -->
-    <!-- 1 - Target name -->
-    <value>{0} geus milih nuduh {1} </value>
-  </string>
-  <string key="IdleKill">
-    <!-- 0 - player name -->
-    <!-- 1 - player role -->
-    <value>{0} geus 2 peuting teu milu milih. {0} otomatis dikaluarkeun tina game. Manehna nyaeta {1}</value>
-  </string>
-  <string key="TraitorTurnWolf">
-	<value>Pengkhianat (Traitor) , sa geus kabeh Ajag paeh, maneh ngarasa aya nu aneh.
-	Awak jadi buluan, huntu aya sihungan, maneh teu bisa ngontrol kaayan kusabab maneh geus berubah jadi Ajag 🐺</value>
-  </string>
-  <string key="ChoiceAccepted">
-    <value>🆗 Mantap wa! Pilihan ditarima.</value>
-    <value>🆗 Pilihan maneh cociks pisan.</value>
-    <value>🆗 Pilihan maneh ditarima.</value>
-  </string>
-  <string key="BeholderSeer">
-    <!-- 0 - seer name -->
-    <value>\n{0} jadi Dukun Sakti👳 (Seer) dina game ieu. Pastikeun maneh ngabejaan yen si {0} nyaeta Dukun anu asli!</value>
-  </string>
-  <string key="ApprenticeNowSeer">
-    <!-- 0 - seer name -->
-    <value> Si {0} nyaeta Dukun Sakti👳 manehna ngaleungit teuing kamana.
-	Kusabab maneh geus diajar cara jadi dukun, maneh diangkat jadi Dukun Sakti👳</value>
-  </string>
-  <string key="BeholderNewSeer">
-    <!-- 0 - apprentice name -->
-    <!-- 1 - seer name -->
-    <value>Si {0} nyaeta murid Dukun Sakti👳, ayeuna manehna ngagantikeun tugas {1} jadi Dukun Sakti! 👳</value>
-  </string>
-  <string key="SeerSees">
-    <!-- 0 - player name -->
-    <!-- 1 - player role -->
-    <value> Maneh yakin yen si {0} nyaeta {1}!</value>
-  </string>
-  <string key="AskLynch">
-    <value> Saha nu rek dituduh?</value>
-  </string>
-  <string key="AskDetect">
-    <value> Saha nu rek dituturkeun ku maneh?</value>
-  </string>
-  <string key="AskShoot">
-    <!-- 0 - bullet count -->
-    <value> Saha nu rek dibedil ku maneh? Pelor maneh kari {0} siki</value>
-  </string>
-  <string key="AskVisit">
-    <value> Saha nu rek diajak sare ku maneh peuting ieu?</value>
-  </string>
-  <string key="AskSee">
-    <value> Saha nu rek dipelong ku maneh?</value>
-  </string>
-  <string key="AskGuard">
-    <value> Saha nu rek dijaga ku maneh?</value>
-  </string>
-  <string key="AskEat">
-    <value> Saha nu rek dihakan ku maneh?</value>
-  </string>
-  <string key="AskHunt">
-    <value> Saha nu rek diarah ku maneh?</value>
-  </string>
-  <string key="AskRoleModel">
-    <value> Saha nu rek dijadikeun panutan maneh?</value>
-  </string>
-  <string key="AskConvert">
-    <value> Saha nu rek dihasut keur milu disekte maneh?</value>
-  </string>
-  <string key="DiscussWith">
-    <!--Leave the leading spaces here please-->
-    <!-- 0 - teammate names -->
-    <value> Pastikeun maneh diskusi jeung si {0}</value>
-  </string>
-  <string key="And">
-    <!--this is paired with "DiscussWith".  again, leave the spaces!-->
-    <value> jeung </value>
-  </string>
-  <string key="RoleInfoCursed">
-    <value> Terkutuk😾 (Cursed), Maneh ngan saukur warga desa biasa tapi maneh boga kekuatan jang berubah jadi Ajag
-	Syaratna, maneh kudu di geel ku Ajag ngarah bisa berubah.</value>
-  </string>
-  <string key="RoleInfoDetective">
-    <value> Maneh jadi Detektip🕵 (Detektif), nu bisa nuturkeun batur terus maneh bakal nyaho saha si eta sabenerna.
-	Unggal maneh nuturkeun batur, pasukan Ajag bisa nyaho yen maneh teh sabenerna detektip!</value>
-  </string>
-  <string key="RoleInfoDrunk">
-    <value> Tukang Mabok🍻 (Drunk). Maneh jadi Warga Desa nu beuki mabok, unggal poe maneh nginum miras nepikeun ka daging maneh kalapis ku alkohol lamun Ajag nepi ngegel maneh, pasukan Ajag moal bisa ngamangsa peuting berikutna.</value>
-  </string>
-  <string key="RoleInfoGuardianAngel">
-    <value> Anjeun jadi Malaikat Pelindung👼 (Guardian Angel). Unggal peuting anjeun bisa ngalindungi 1 pemaen nu kira-kira bakal diserang. Tapi, mun anjeun milih ngalindungi jelema jahat, gede kamungkinan anjeun bakal dipaehan. </value>
-  </string>
-  <string key="RoleInfoGunner">
-    <value> Tukang Bedil🔫 (Gunner). Maneh bisa nembak saha wae nu kira-kira dicurigai, tapi inget maneh ngan boga 2 pelor, sing apik sora bedil maneh bakal kadenge ku kabeh warga. (Kaabus penjahat)</value>
-  </string>
-  <string key="RoleInfoHarlot">
-    <value> Ublag💋 (Harlot) Unggal peuting maneh bisa ngadatangan pemaen jang diajak sare bareng.
-    Tapi mun maneh abus ka imah Ajag atawa imah nu keur diserang ku Ajag, maneh bakal milu maot.
-    Pastikeun unggal peuting maneh kaluar, supaya penjahat teu bisa nyerang maneh ka imah.</value>
-  </string>
-  <string key="RoleInfoTraitor">
-    <value> Maneh jadi Pengkhianat🖕 (Traitor)! Warga desa nu bakal jadi Ajag lamun kabeh Ajag geus paeh.
-	Dukun Sakti👳 bakal melong rupa maneh nyaeta Ajag sanajan maneh jadi Warga Desa keneh.</value>
-  </string>
-  <string key="RoleInfoWolf">
-    <value> EDAN SIA JADI AJAG 🐺 (Serigala)!! Unggal peuting maneh bisa milih saha nu rek di hakan, wilujeng seubeuh wa :(</value>
-  </string>
-  <string key="RoleInfoSeer">
-    <value> Maneh jadi Dukun Sakti👳 (Penerawang). Jelema nu bisa melong sarta ngabongkar peran pemaen pilihanna. Omat, cukup Budak Indigo nu nyaho yen maneh teh Dukun!</value>
-  </string>
-  <string key="RoleInfoVillager">
-    <value> Maneh ngan saukur jadi Warga Desa👱 (Villager), macul unggal poe, diajak abus aliran sesat, di pitnah batur, terus jadi parab serigala. Tarimakeun weh wa :(</value>
-  </string>
-  <string key="RoleInfoTanner">
-    <value> Budak Gelo👺 (Tanner). Budak gelo, tukang ngahibur kabeh jalma di desa. Lamun warga nepikeun ka salah ngaduruk maneh, warga bakal sedih terus maneh otomatis meunang sorangan.</value>
-  </string>
-  <string key="RoleInfoWildChild">
-    <value> Maneh jadi Budak Labil👶 (Wild Child), nu butuh belaian jeung panutan hirup. Pilih panutan maneh pas game mimiti mulai. Mun panutan maneh nepi ka paeh, maneh bakal berubah jadi Ajag.</value>
-  </string>
-  <string key="RoleInfoBeholder">
-    <value> Budak Indigo👁 (Beholder), maneh boga indra ka-6 nu bisa ngabantuan maneh saha Dukun Sakti anu asli. </value>
-  </string>
-  <string key="RoleInfoApprenticeSeer">
-    <value> Anjeun jadi Murid Dukun Sakti🙇 (Murid Penerawang). Mun Dukun nu asli maot, tugas anjeun nyaeta ngagantikeunna jadi Dukun Sakti.</value>
-  </string>
-  <string key="RoleInfoCultist">
-    <value> Maneh jadi Kultus👤 (Cultist), pengikut aliran sesat nu percaya lamun maranehna nyembah Gunung pasti bakalan bagja. Cuci otak warga desa terus hasut kabeh warga jang jadi Kultus👤, lamun kabeh serigala paeh terus kabeh warga desa jadi anggota maneh, maneh meunang!</value>
-  </string>
-  <string key="RoleInfoCultistHunter">
-    <value> Maneh jadi Pemburu Kultus💂 (Cultist Hunter)! Caritana aya aliran sesat/kultus di desa maneh. Tugas maneh nyaeta ngaburu kabeh kultus nepi beak, lamun salah sahiji ti maranehna ngajak maneh gabung, maneh bisa ngabela diri terus maehan anggota kultus nu pang anyarna 💂.</value>
-  </string>
-  <string key="LynchTime">
-    <!-- 0 - number of seconds -->
-    <value> Wanci sariak layung.
-	Kabeh warga kumpul di bale desa, keur milih saha nu arek dituduh.
-	Warga desa dibere waktu {0} detik jang milih!</value>
-  </string>
-  <string key="DayTime">
-    <!-- 0 - number of seconds -->
-    <value> Wanci manceran.
-	Warga desa gaduh waktos {0} detik kanggo nuduh / ngabela diri / ngambek dituduh.
-	Pokokna pis lop en gawl weh daks!</value>
-  </string>
-  <string key="NightTime">
-    <!-- 0 - number of seconds -->
-    <value> Wanci sareureuh kolot.
-	Kabeh warga desa geus sarare, hate teu tenang, pikiran bingung, sabab arembung jadi parab penjahat peuting ieu.
-	Pemaen peuting: maraneh boga waktu {0} detik keur ngajalankeun tugasna!</value>
-  </string>
-  <string key="LynchKill">
-    <!-- 0 - player name -->
-    <!-- 1 - player role -->
-    <value> Kabeh warga geus satuju keur ngeleketek {0} ku bedog, bari dialungan ku tai kotok, teu lila manehna jol maot. {1}.</value>
-    <value> Kabeh warga milih {0} jang dipaehan poe ieu.
-	{0} dibaledog ku ban setum jeung beusi karatan. {1}.</value>
-    <value> Kabeh warga geus ngabuleudkeun pilihan keur ngaduruk si {0}.
-	{0} dialungkeun kana hawu nu badag kacida. {1}.</value>
-  </string>
-  <string key="LynchTie">
-    <value> Warga loba teuing lalajo pilem acaacanehinehi, nepikeun ka bingung nyokot keputusan.
-	Euweuh nu dieksekusi peuting ieu. ZBL,KZL,huvt.!</value>
-    <value> Warga balueng mikiran nasib kahareupna. Peuting ieu, euweuh nu dieksekusi.</value>
-  </string>
-  <string key="NoLynchVotes">
-    <value> Aneh, euweuh nu milih jang digantung peuting ieu...</value>
-  </string>
-  <string key="DetectiveEaten">
-    <!-- 0 - victim name -->
-    <value> Warga soak melong loop anu peupeus, tanda pengenal detektip murag, berikut loba getih di hareupeun bale desa.
-	{0} si Detektip🕵, geus paeh dihakan Ajag🐺.</value>
-  </string>
-  <string key="GuardianEaten">
-    <!-- 0 - victim name -->
-    <value> Bulu bodas tingarapung di Desa poe ieu, jasad salah sahiji warga kapanggih dina jero bedug.
-	Kanyataan pait, {0} si Malaikat Pelindung👼 geus paeh dihakan Ajag tadi peuting.</value>
+<strings><language name="Basa Sunda" base="Indonesia" variant="Basa Sunda" owner="limatiga"/>
+	<string key="NotInGame">
+		<value>Maneh can abus kanu game manapun.</value>
 	</string>
-  <string key="GunnerEaten">
-    <!-- 0 - victim name -->
-    <value> Isuk-isuk pas warga kabeh kalaluar ti imahna, warga manggihan bedil nu pinuh ku getih.
-	{0}, dihakan Ajag. Tukang Bedil🔫 geus paeh. . .</value>
-  </string>
-  <string key="SeerEaten">
-    <!-- 0 - victim name -->
-    <value> Pas isuk-isuk, bau menyan ka ambeu ti imah {0}.
-	Ngagolepak di luhur buku mantera, jeung alat-alat dudukunan.
-	{0} si Dukun Sakti👳 paeh dihakan ku Ajag.</value>
-  </string>
-  <string key="DrunkEaten">
-    <!-- 0 - victim name -->
-    <value>
-	 Isuk-isuk kabeh warga harudang ngambeu bau ceribel.
-	 Awak {0} kapanggih ngagolepak di jero tempat dugem, Si Tukang Mabok 🍻 paeh dihakan Ajag</value>
-  </string>
-  <string key="FoolEaten">
-    <!-- 0 - victim name -->
-    <value> Pas isuk-isuk, bau nu aneh ka ambeu ti imah {0}.
-	Ngagolepak di luhur buku majalah porno, pabalatak kartu gapleh, warga nyaksian Dukun Lepus🃏 geus paeh ku Ajag🐺.</value>
-  </string>
-  <string key="DefaultEaten">
-    <!-- 0 - victim name -->
-    <!-- 1 - victim role -->
-    <value> Poe ieu isuk-isuk geus kaambeu bau cikiih ti hareupeun imah salah sahiji warga desa, tapi lain bau hangseur acan diguyur.
-	{0} si {1} paeh, diriung ku laleur bari eusi beuteung tingburinyai ka taneuh, HAPHAPHAPHAP🐺</value>
-    <value>Poe ieu, warga melong jasad {0} si {1} di hareupeun bale desa.  Manehna di paeh di hakan ku Ajag🐺 HAPHAPHAPHAP!</value>
-    <value>Warga Desa ngarasa aneh, si {0} teu milu ngariung poe ieu.  Kabeh warga abus ka imahna terus melong si {0} geus acak-acakan di hakan Ajag🐺 {1} HAPHAPHAPHAP!</value>
-  </string>
-  <string key="HunterKilledCultist">
-    <!-- 0 - victim name -->
-    <value> Bau aneh kaambeu ti imah {0}.
-	Warga mariksa ka jero imahna terus manggihan {0} geus teu walakaya ngadenge ceramah ti Pemburu Kultus💂
-	Kultus 👤 pengikut ajaran sesat, paeh !</value>
-  </string>
-  <string key="NoAttack">
-    <value> Heran, euweuh nu diserang kamari peuting.
-	Sawareh atoh tapi, sawareh warga hariwang bari silih pelongkeun kusabab curiga.</value>
-  </string>
-  <string key="CursedBitten">
-    <value> Maneh digegel serigala, maneh teu jadi paeh kusabab kutukan maneh mampu ngarobah maneh jadi Ajag. Wilujeng Seubeuh🐺!</value>
-  </string>
-  <string key="WolfTeam">
-    <!-- 0 - teammate names -->
-    <value> Tim Ajag maneh nyaeta: {0}</value>
-  </string>
-  <string key="CursedBittenToWolves">
-    <!-- 0 - victim name -->
-    <value> {0} geus digegel ku Pasukan Ajag.
- 	 Manehna teu paeh kusabab boga kutukan jang berubah jadi Ajag! Wilujeng, jumlah pasukan Ajag nambahan.</value>
-  </string>
-  <string key="WolvesEatYou" isgif="true">
-    <value> Maneh keur galau sagalau galau na nepikeun ka poho ngonci panto imah.
-	🐺 Ajag geus ngahakan maneh.
-	Maneh paeh dina kaayaan mikiran mantan. HAPHAPHAPHAP!</value>
-    <value> Peuting-peuting, maneh ngarasa aya jelema di kolong kasur. Panasaran, maneh turun terus melong saha nu aya dihandap kasur.
-	HAPHAPHAPHAP! Maneh dibetot ka kolong terus dihakan ku Ajag🐺!</value>
-    <value> Maneh balik telat peuting ieu, dijalan balik maneh dituturkeun ku rupa anu pikasieuneun.
-	Ajag luncat bari tuluy ngahakan maneh. HAPHAPHAPHAP!🐺</value>
-	<value> Tengah peuting, niat rek meuli kopi ka warung.
-	Ti luhureun tangkal cau, jol aya sosok nu ngagajleng terus ngahakan maneh. HAPHAPHAPHAP!🐺</value>
-  </string>
-  <string key="WolvesEatDrunk">
-    <!-- 0 - victim name -->
-    <value> Sial!! si {0} nyaeta Tukang Mabok!!🍻 Maneh nyobaan balik ka imah tuluy ngalempreh, maneh kudu istirahat peuting engke..</value>
-  </string>
-  <string key="GuardWolf">
-    <value> Maneh milih jang ngalindungi Ajag, tapi Ajag kalahkah malik nyerang maneh. Kitu rasana ngabela jelema nu salah teh. Watirr!</value>
-  </string>
-  <string key="GuardSaved">
-    <!-- 0 - saved player name -->
-    <value> Maneh berhasil ngalindungi {0} ti serangan jelama jahat!</value>
-    <value> Kekuatan sakti maneh bisa ngusir serangan jahat ka {0}.
-	{0} teu jadi diserang!</value>
-  </string>
-  <string key="GuardNoAttack">
-    <!-- 0 - player name -->
-    <value>Si {0} teu diserang, maneh bisa sare tibra peuting ieu💤.</value>
-  </string>
-  <string key="GuardEmptyHouse">
-    <!-- 0 - player name -->
-    <value> Anjeun ka imah si {0}, ternyata euweuh sasaha di imah!</value>
-  </string>
-  <string key="GuardSavedYou">
-    <value> Malaikat Pelindung👼 geus ngajaga maneh tadi peuting, Pasukan Ajag indit mangpret sieuneun melong sosok jangkung badag jeung pikasieuneun nangtung di hareupeun imah maneh!</value>
-  </string>
-  <string key="HarlotEaten">
-    <!-- 0 - player name -->
-    <value> Ublag teu bisa kaluar peuting ieu, jadi Pasukan Ajag nu datang ka imahna, {0} paeh dihakan Ajag.</value>
-  </string>
-  <string key="HarlotNotHome">
-    <!-- 0 - player name -->
-    <value> Aneh pisan, imah {0} ternyata kosong molongpong! Teu jadi meunang jatah weh.</value>
-  </string>
-  <string key="HarlotFuckWolf">
-    <!-- 0 - player name -->
-    <value> Maneh ka imah {0} jang jatah ikeh-ikeh👄, tapi maneh salah milih target.
-	Maneh nyampeurkeun Ajag! Teu lila, maneh jol dihakan ku Ajag.</value>
-  </string>
-  <string key="HarlotFuckedWolfPublic">
-    <!-- 0 - player name -->
-    <value> {0} salah asup imah!! Lainna ngeunah, kalah kapanggih di kandang bagong 🐷</value>
-    <value> {0} jadi bahan gosip di desa, manehna kapanggih paeh dina kaayaan dibuligir.</value>
-  </string>
-  <string key="HarlotFuckedVictimPublic">
-    <!-- 0 - harlot name -->
-    <!-- 1 - victim name -->
-    <value> {0} susulumputan ka imah {1} jang jatah peuting 👄.
-	Geus kagok sange, pek teh si {1} keur diLEGLEG ku Ajag🐺!
-	{0} geus balik arah rek lumpat, eh ajagna bijil dihareupeun.
-	{0} paeh dihakan ku Ajag..ni watirrr..</value>
-  </string>
-  <string key="HarlotVisitNonWolf">
-    <!-- 0 - target name -->
-    <value> Maneh ka imah {0} ari pek teh manehna lain Ajag, maneh tutumpakan nepi ngoprot kesang kamari peuting. ENAKDEK! 💕</value>
-	<value> Maneh asup ka imah {0}, maneh mareuman lampu kamarna, maneh nutupan panonna, leungeunna di talian, maneh mukakeun baju jeung calana na, terus maneh numpakan manehna. Jatah sange kabayar, ENAKDEK! 💕</value>
-  </string>
-  <string key="HarlotVisitYou">
-	<value>Tengah peuting, aya jelema nu asup ka imah maneh. Kusabab tunduh, maneh teu mikiran saha nu asup.
-	Teu lila, maneh ujug ujug ngarasa tiris kusabab baju, calana, jeung jeroan maneh aya nu mukakeun, panon di tutupan ku kaen.
-	Nu "handap" jadi baseuh, pek teh Ublag💋 keur beraksi ngajak maneh "cinta satu malam".</value>
-  </string>
-  <string key="DetectiveCaught">
-    <!-- 0 - detective name -->
-    <value> Maneh ngarasa diperhatikun ku si {0}. Perasaan maneh nyebutkeun yen si {0} nyaeta Detektip!🕵 </value>
-  </string>
-  <string key="DetectiveSnoop">
-    <!-- 0 - target name -->
-    <!-- 1 - target role -->
-    <value>Hasil gawe maneh ngabuktikeun yen si {0} nyaeta {1} </value>
-  </string>
-  <string key="HarlotShot">
-    <!-- 0 - gunner's name -->
-    <!-- 1 - Harlot's name -->
-    <value>Tukang Bedil🔫 ngewa kacida ka tukang jinah, akhirna si {0} ngarahkeun bedilna kana sirah si {1}. DOR! Ublag paeh dibedil🔫</value>
-  </string>
-  <string key="DefaultShot">
-    <!-- 0 - Gunner's name -->
-    <!-- 1 - target name -->
-    <!-- 2 - Target's revealed name ( Target was a role) -->
-    <value>Ujug-ujug, kadenge sora bedil. DOR! Warga kalaluar melongkeun {0} keur nangtung bari ngarahkeun bedil ka si {1}. {1} nyaeta {2}.</value>
-  </string>
-  <string key="WolfWins" isgif="true">
-    <value>Kaulinan dimeunangkeun ku Ajag 🐺! AUUUUUUUUUUU!!</value>
-  </string>
-  <string key="WolvesWin" isgif="true">
-    <value>Kaulinan dimeunangkeun ku Pasukan Ajag 🐺! AAAUUUUUUU!!</value>
-  </string>
-  <string key="VillageWins" isgif="true">
-    <value> HOREEE! Kabeh penjahat geus paraeh.
-	 Kaulinan dimeunangkeun ku Warga Desa 👱!</value>
-  </string>
-  <string key="TannerWins" isgif="true">
-    <value> RASAKEUN! maneh milih maehan Budak Gelo👺!
-	 Warga sedih euweuh deui nu bisa ngalawak di desa!
-	 Warga ngarelakeun Budak Gelo👺 meunang.</value>
-	<value> "Hahahahaha...warga belegug!" Gorowok salah sahiji jelema.
-	 Manehna atoh kusabab diduruk, warga soak pas nyaho yen si eta teh Budak Gelo👺
-	 Budak Gelo meunang!</value>
-  </string>
-  <string key="RemainingPlayersEnd">
-    <value> Pemaen nu hirup keneh:</value>
-  </string>
-  <string key="CultistVotedConvert">
-    <!-- 0 - Voter's name -->
-    <!-- 1 - target name -->
-    <value>{0} milih ngahasut {1}</value>
-  </string>
-  <string key="CultConvertCultHunter">
-    <!-- 0 - Yougest Cultist (killed)'s name' -->
-    <!-- 1 - CultHunter's name -->
-    <value>{0} dikirim ku sekte jang ngajak {1}... Pekteh, manehna Pemburu Kultus💂! {0} diruqiyah nepi modyar!</value>
-  </string>
-  <string key="CultHunterKilledCultVisit">
-    <!-- 0 - Youngest Cultist's name -->
-    <!-- 1 - Number of cultists left -->
-    <value>{0} datang ka imah maneh niatna arek ngarekrut maneh, tapi maneh geus nyiapkeun jimat jang ngaruqiyah. Kultus👤 modyar diruqiyah...
-	Sesa kultus nu hirup {1}!</value>
-  </string>
-  <string key="CultConvertYou">
-    <value> Kultus👤 geus ngarekrut maneh jadi pengikut ajaran sesat! Ayeuna, maneh jadi anggota aliran sesat.
-	Unggal peuting maneh bisa milih jang ngajakan batur abus milu ka sekte.</value>
-  </string>
-  <string key="CultTeam">
-    <!-- 0 - Number of cultists -->
-    <value>Anggota Kultus: {0}</value>
-  </string>
-  <string key="CultJoin">
-    <!-- 0 - new cultist's name -->
-    <value>{0} geus gabung milu disekte Kultus👤! Ciee nambahan yeuh.</value>
-  </string>
-  <string key="CultVisitEmpty">
-    <!-- 0 - Newest cultist's name -->
-    <!-- 1 - target name -->
-    <value>{0} geus dikirim jang ngajak {1} gabung milu sekte👤... Tapi pas datang, euweuh jelema diimahna!</value>
-  </string>
-  <string key="CultWins" isgif="true">
-    <value>Kabeh Ajag geus paeh, warga nu hirup keneh geus milu gabung di sekte Kultus...
-	Game dimeunangkeun ku Kultus 👤!</value>
-  </string>
-  <string key="HunterVisitDead">
-    <!-- 0 - target name -->
-    <value>Maneh indit ka imah si {0} jang maehan Kultus, tapi jelemana geus paeh tiheula!</value>
-  </string>
-  <string key="HunterFindCultist">
-    <!-- 0 - target name -->
-    <value>Maneh indit ka imah si {0}, maneh curiga sabab manehna keur maca ajian make basa Sunda Kuna! Maneh langsung maca jimat jang ngelingan si {0}. Kultus👤 kapanasan dibacaan jimat nepikeun ka paeh.</value>
-  </string>
-  <!-- 0 - target name -->
-  <string key="HunterFailedToFind">
-    <value>Maneh indit ka imah si {0}, tapi euweuh hal-hal anu aneh, maneh balik deui ka imah.</value>
-  </string>
-  <string key="WildChildToWolves">
-    <!-- 0 - Werechild's name -->
-    <value>Panutan si {0} geus paeh! Manehna teu bisa narima kanyataan, bakat ku teu bisa ngontrol emosi maneh berubah jadi Ajag🐺!</value>
-  </string>
-  <string key="WildChildTransform">
-    <!-- 0 - role's name -->
-    <!-- 1 - teamate's names -->
-    <value>Si {0} geus paeh!
-	Kubakat napsu maneh berubah jadi Ajag🐺! Balad maneh nu anyar nya eta: {1}</value>
-  </string>
-  <!-- Villager, Drunk, Harlot, Seer, Traitor, GuardianAngel, Detective, Wolf, Cursed, Gunner, Tanner, Fool, WildChild, Beholder, ApprenticeSeer, Cultist, CultistHunter-->
-  <string key="Villager">
-    <value>Warga Desa 👱</value>
-  </string>
-  <string key="Drunk">
-    <value>Tukang Mabok🍻</value>
-  </string>
-  <string key="Harlot">
-    <value>Ublag💋</value>
-  </string>
-  <string key="Seer">
-    <value>Dukun Sakti👳</value>
-  </string>
-  <string key="Traitor">
-    <value>Pengkhianat🖕</value>
-  </string>
-  <string key="GuardianAngel">
-    <value>Malaikat Pelindung👼</value>
-  </string>
-  <string key="Detective">
-    <value>Detektip🕵</value>
-  </string>
-  <string key="Wolf">
-    <value>Ajag🐺</value>
-  </string>
-  <string key="Cursed">
-    <value>Terkutuk😾</value>
-  </string>
-  <string key="Gunner">
-    <value>Tukang Bedil🔫</value>
-  </string>
-  <string key="Tanner">
-    <value>Budak Gelo👺</value>
-  </string>
-  <string key="Fool">
-    <value>Dukun Lepus🃏</value>
-  </string>
-  <string key="WildChild">
-    <value>Budak Labil👶</value>
-  </string>
-  <string key="Beholder">
-    <value>Budak Indigo👁</value>
-  </string>
-  <string key="ApprenticeSeer">
-    <value>Murid Dukun🙇</value>
-  </string>
-  <string key="Cultist">
-    <value>Kultus👤</value>
-  </string>
-  <string key="CultistHunter">
-    <value>Pemburu Kultus💂</value>
-  </string>
-  <!-- These are for the player list -->
-  <string key="RanAway">
-    <value>🏃 Mangpret</value>
-  </string>
-  <string key="Dead">
-    <value>💀 Paeh</value>
-  </string>
-  <string key="Alive">
-    <value>🙂 Hirup</value>
-  </string>
-  <string key="PlayersAlive">
-    <value>Pemaen nu hirup keneh</value>
-  </string>
-  <!-- New strings 4 MAY 2016-->
-  <string key="Mason">
-    <value>Tukang Batu👷</value>
-  </string>
-  <string key="RoleInfoMason">
-    <value>Maneh jadi Tukang Batu(Mason)👷.  Maneh saukur warga biasa, tapi maneh bisa nyaho saha wae perkumpulan Tukang Batu (Mason).</value>
-  </string>
-  <string key="MasonEaten">
-    <!-- 0 - dead man's name -->
-    <value>🌤 Pas kabeh warga harudang, warga ngambeu bau mayit di luhur para, getihna muncrat kamana-mana. {0} si Tukang batu👷 geus paeh dihakan Ajag🐺</value>
-  </string>
-  <string key="MasonTeam">
-    <value>Balad Tukang Batu👷 maneh nyaeta: {0}</value>
-  </string>
-  <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
-    <!-- 0 - Youngest cultists name -->
-    <value>Anggota anyar maneh nyobaan ngajak si {0}. Tapi si {0} geus paeh, ditinggali loba getih dimamana, jeung aya tapak koetan Ajag🐺</value>
-  </string>
-  <string key="GuardBlockedWolf">
-    <!-- 0 - target's name -->
-    <value>Kabeh Ajag arindit jang ngahakan si {0}, tapi Pasukan Ajag kalah panggih jeung wujud nu pikasieuneun. Ternyata eta Malaikat Pelindung👼, ajag lalumpatan ngabret balik ka imahna.</value>
-  </string>
-  <!--new strings May 9 2016-->
-  <string key="CultUnableToConvert">
-    <!-- 0 - newest  -->
-    <!-- 1 - target's name -->
-    <value>Maneh nitah {0} jang ngajak {1} milu ajaran sesat, tapi jelemana sholeh/sholehah pisan jadi moal mungkin jang direkrut, {0} teu bisa ngarekrut manehna :(</value>
-  </string>
-  <!--new string May 12 2016-->
-  <string key="NameExists">
-    <!-- 0 - target's name -->
-    <!-- 1 - name -->
-    <value>@{1}, pemaen nu make ngaran {0} geus aya, cobaan ganti heula ngaran nu sejen.</value>
-  </string>
-  <string key="HarlotDiscoverCult">
-    <!-- 0 - target's name -->
-    <value>Maneh indit ka imah si {0} arek tutumpakan... Pas geus beres ngarasakeun nikmat, maneh ninggali loba alat-alat pemujaan kultus dikamarna......</value>
-  </string>
-  <!-- new string May 13 2016-->
-  <string key="Was">
-    <value>nya eta</value>
-  </string>
-  <string key="GenericDeathNoReveal">
-    <!-- 0 - Dead's name -->
-    <value>Kabeh warga harudang, jeung nyadar lamun si {0} euweuh... Kabeh lalumpatan ka imah si {0} jang ngacek. {0} geus paeh.</value>
-    <value>Isuk-isuk, Warga manggihan jasad si {0} ngagolepak di imahna, tapi warga teu nyaho naon penyebab paehna...</value>
-  </string>
-  <string key="MasonConverted">
-    <!-- 0 - mason's name -->
-    <value>Aneh pisan.... Si {0} teu datang di kumpulan Tukang Batu👷</value>
-  </string>
-  <!-- new string May 16 2016-->
-  <string key="FleeDisabled">
-    <value>Punten baraya, teu meunang kabur pas keur ulin, flee geus dinonaktifkeun ku Admin!</value>
-	<value> Rek kamana siah! Teu meunang kabur pas kaulinan geus mulai kehed!</value>
-  </string>
-  <string key="IsDead">
-    <!-- used when gunner shoots a player -->
-    <value>geus maot</value>
-  </string>
-  <!-- MORE STRINGS May 16, 2016 -->
-  <string key="AdminAdded">
-    <!-- 0 - target's name -->
-    <value>{0} geus ditambahkeun jadi admin. Ketik /config jang ganti setelan group ieu.</value>
-  </string>
-  <string key="AlreadyInGame">
-    <!-- 0 - target's name -->
-    <value>Maneh geus join di game ieu!({0})</value>
-  </string>
-  <string key="MultipleGames">
-    <value>Grup ieu boga leuwih ti 1 game, salah sahiji bakal di anulir.</value>
-  </string>
-  <string key="GroupQueue">
-    <!-- 0 - target's name -->
-    <!-- 1 - target's name -->
-    <value>Grup ieu keur dina posisi antre, sabar tungguan nya daks.  Posisi: {0} / {1}</value>
-  </string>
-  <string key="MaintBreak">
-    <!-- 0 - target's name -->
-    <value>Punten, Grup bade di ayakeun perbaikan/maintenis. Samentaun teu tiasa di angge maen game. \nNgantosan {0} game deui beres...\nMangga klik @werewolfdev kanggo informasi anu langkung jelas.</value>
-  </string>
-  <string key="MaxGames">
-    <!-- 0 - target's name -->
-    <!-- 1 - target's name -->
-    <value>Hampura, pemaen geus maksimal ({0}).\nPosisi di antrean: {1} / {1}</value>
-  </string>
-  <string key="SkipQueue">
-    <!-- 0 - target's name -->
-    <value>{0} ieu grup nu diheulakeun, teu kudu milu ngantri! KUYLAH YAKALI GAK KUY!</value>
-  </string>
-  <string key="NoGame">
-    <value>Euweuh kaulinan nu keur dipaenkeun. Mulai kaulinan anyar, ketik /startgame atawa mulai mode rusuh/chaos ketik /startchaos</value>
-  </string>
-  <string key="GroupAdminOnly">
-	<value> Embung ah, maneh mah lain admin. </value>
-  </string>
-  <string key="ShuttingDown">
-    <value>Sa geus game ieu, Bot arek dipareuman sakeudeung jang mulai perbaikan/maintenis.</value>
-  </string>
-  <string key="ShuttingDownUpdate">
-    <value>Sa geus game ieu, Bot arek dipareuman sakeudeung jang mulai update (otomatis).</value>
-  </string>
-  <string key="NullIdAdmin">
-    <value>UserId teu dieusian /null.Maneh yakin ngirim ieu jadi balesan?</value>
-  </string>
-  <string key="AlreadyAdmin">
-    <!-- 0 - target's name -->
-    <value>{0} geus jadi admin!</value>
-  </string>
-  <string key="NotAdmin">
-    <!-- 0 - target's name -->
-    <value>{0} lain admin!</value>
-  </string>
-  <string key="AdminRemoved">
-    <!-- 0 - target's name -->
-    <value>{0} dihapus tina daptar admin.</value>
-  </string>
-  <string key="LanguageSet">
-    <!-- 0 - language's name -->
-    <value>Basa diganti jadi {0}</value>
-  </string>
-  <string key="NoSeer">
-    <value>Euweuh Dukun Sakti!</value>
-  </string>
-  <string key="TimesUp">
-    <value>Waktuna beak!</value>
-    <value>Geus telat keur ngajawab!</value>
-  </string>
-  <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
-    <value> Maneh jadi Lebe 💘 (Cupid). 
-	Tukang ngawinkeun batur di desa, pokona maneh bisa milih saha wae nu rek di jodokeun. Pilih 2 pemaen nu arek di kawinkeun terus nyieun maranehna setia nepi maot. Kusabab setia nepi maot, mun salah sahiji pasangan eta paeh, pasangana bakal milu maot.</value>
+	<string key="PlayerStartedGame" isgif="true">
+		<!-- 0 - Player name -->
+		<value>{0} geus ngabalakan kaulinan di Tatar Pasundan! ketik /join keur miluan ulin.</value>
+		<value>Kaulinan di Tatar Pasundan geus dibalakan ku {0}! Geura ketik /join ngarah teu ngahuleng wae!</value>
+	</string>
+	<string key="PlayerStartedChaosGame" isgif="true">
+		<!-- 0 - Player name -->
+		<value>{0} geus ngabalakan kaulinan di Tatar Pasundan (Mode Rusuh)! ketik /join keur miluan ulin.</value>
+		<value>Kaulinan di Tatar Pasundan (Mode Rusuh) geus dibalakan ku {0}! Geura ketik /join ngarah teu ngahuleng wae!</value>
+	</string>
+	<string key="NoJoinGameRunning">
+		<value>Kaulinan geus dimulai, tungguan kaulinan sageus ieu ketik /nextgame</value>
+	</string>
+	<string key="AlreadyJoined">
+		<value>Maneh geus milu ulin, sakali weh ketik /join na kehed!</value>
+	</string>
+	<string key="MinuteLeftToJoin">
+		<value>Sesa waktu keur miluan kaulinan kari samenit deui, ketik /join keur milu dina kaulinan ieu.</value>
+	</string>
+	<string key="SecondsLeftToJoin">
+		<!-- 0 - remaining seconds (number) -->
+		<value>Sesa waktu keur miluan kaulinan kari {0} detik deui, geura ketik /join euy!</value>
+	</string>
+	<string key="NotEnoughPlayers">
+		<value>Aing mah! Euweuh jelemaan kieu, moal weh maen teh? Geura di geroan sina kadarieu, omat edankeun!</value>
+		<value>Atuh da meni jempling kieu euweuh nu maen, bedo weh maen teh!</value>
+	</string>
+	<string key="StartingGameWait">
+		<value>Kaulinan geus dimulai, peran masing-masing keur dibagikeun. Omat cek PM ti kuring!</value>
+		<value>Kaulinan parantos dikawitan! Antosan sakedap</value>
+	</string>
+	<string key="BannedForExploit">
+		<!-- 0 - Player name -->
+		<value>Akun {0} teu bisa milu dina kaulinan ieu. (ngaran teu meunang make / di awal)</value>
+	</string>
+	<string key="ChangeNameToJoin">
+		<!-- 0 - Player name -->
+		<value>{0}, ganti heula ngaran ngarah bisa join!</value>
+		</string>
+	<string key="PlayerLimitReached">
+		<value>Hampura daks, nu maen geus pinuh!</value>
+	</string>
+	<string key="PlayerJoined">
+		<!-- 0 - Player name -->
+		<!-- 1 - current players -->
+		<!-- 2 - Minimum players -->
+		<!-- 3 - Maximum players -->
+		<value>{0} geus milu dina kaulinan Ajag-ajagan. {1} pemaen nu geus miluan, paling saeutik {2} pemaen, paling loba {3} pemaen.</value>
+	</string>
+	<string key="PMTheBot">
+		<!-- 0 - Player name -->
+		<!-- 1 - bot username -->
+		<value>{0} kudu ngaklik heula tombol "Start Me" nu aya dihandap atau pm {1} terus klik start. 
+			Maneh moal bisa kadaptar dina kaulinan saacan ngastart bot.</value>
+	</string>
+	<string key="DeadFlee">
+		<value>Kabur kamana siah kehed?! Maneh geus modar lain? Abus deui ka kuburan ditu, ngalilieur HIH!</value>
+	</string>
+	<string key="Flee">
+		<!-- 0 - Player name -->
+		<value>{0} sieuneun daks! Teu maen pisan!</value>
+		<value>{0} mangpret tina game. Teu cees!</value>
+	</string>
+	<string key="PlayerRoleWas">
+		<!-- 0 - Player name -->
+		<!-- 1 - Player role -->
+		<value>{0} nyaeta {1}</value>
+	</string>
+	<string key="CountPlayersRemain">
+		<!-- 0 - Number of players -->
+		<value>{0} Pemaen nu nyesa.</value>
+	</string>
+	<string key="DidntAsk">
+		<value>Saha? NU NANYA! Urang mah teu nanya maneh bebel!</value>
+	</string>
+	<string key="NotPlaying">
+		<value>Teu milu ulin, tong riweuh!</value>
+	</string>
+	<string key="NoPlayerName">
+		<value>Hampura ngaran nu dipilih euweuh!</value>
+		<value>Maneh milih saha?</value>
+	</string>
+	<string key="AnswerNonValid">
+		<value>Jawaban maneh salah!</value>
+	</string>
+	<string key="WolfVotedKill">
+		<!-- 0 - wolf teammate name -->
+		<!-- 1 - Victim name -->
+		<value>{0} geus milih rek ngahakan {1}</value>
+	</string>
+	<string key="PlayerVotedLynch">
+		<!-- 0 - Voter name -->
+		<!-- 1 - Target name -->
+		<value>{0} geus milih nuduh {1} </value>
+	</string>
+	<string key="IdleKill">
+		<!-- 0 - player name -->
+		<!-- 1 - player role -->
+		<value>{0} geus 2 peuting teu milu milih. {0} otomatis dikaluarkeun tina game. Manehna nyaeta {1}</value>
+	</string>
+	<string key="TraitorTurnWolf">
+		<value>Pengkhianat (Traitor) , sa geus kabeh Ajag paeh, maneh ngarasa aya nu aneh. 
+		Awak jadi buluan, huntu aya sihungan, maneh teu bisa ngontrol kaayan kusabab maneh geus berubah jadi Ajag 🐺</value>
+	</string>
+	<string key="ChoiceAccepted">
+		<value>🆗 Mantap wa! Pilihan ditarima.</value>
+		<value>🆗 Pilihan maneh cociks pisan.</value>
+		<value>🆗 Pilihan maneh ditarima.</value>
+	</string>
+	<string key="BeholderSeer">
+		<!-- 0 - seer name -->
+		<value>\n{0} jadi Dukun Sakti👳 (Seer) dina game ieu. Pastikeun maneh ngabejaan yen si {0} nyaeta Dukun anu asli!</value>
+	</string>
+	<string key="ApprenticeNowSeer">
+		<!-- 0 - seer name -->
+		<value> Si {0} nyaeta Dukun Sakti👳 manehna ngaleungit teuing kamana. 
+		Kusabab maneh geus diajar cara jadi dukun, maneh diangkat jadi Dukun Sakti👳</value>
+	</string>
+	<string key="BeholderNewSeer">
+		<!-- 0 - apprentice name -->
+		<!-- 1 - seer name -->
+		<value>Si {0} nyaeta murid Dukun Sakti👳, ayeuna manehna ngagantikeun tugas {1} jadi Dukun Sakti! 👳</value>
+	</string>
+	<string key="SeerSees">
+		<!-- 0 - player name -->
+		<!-- 1 - player role -->
+		<value> Maneh yakin yen si {0} nyaeta {1}!</value>
+	</string>
+	<string key="AskLynch">
+		<value> Saha nu rek dituduh?</value>
+	</string>
+	<string key="AskDetect">
+		<value> Saha nu rek dituturkeun ku maneh?</value>
+	</string>
+	<string key="AskShoot">
+		<!-- 0 - bullet count -->
+		<value> Saha nu rek dibedil ku maneh? Pelor maneh kari {0} siki</value>
+	</string>
+	<string key="AskVisit">
+		<value> Saha nu rek diajak sare ku maneh peuting ieu?</value>
+	</string>
+	<string key="AskSee">
+		<value> Saha nu rek dipelong ku maneh?</value>
+	</string>
+	<string key="AskGuard">
+		<value> Saha nu rek dijaga ku maneh?</value>
+	</string>
+	<string key="AskEat">
+		<value> Saha nu rek dihakan ku maneh?</value>
+	</string>
+	<string key="AskHunt">
+		<value> Saha nu rek diarah ku maneh?</value>
+	</string>
+	<string key="AskRoleModel">
+		<value> Saha nu rek dijadikeun panutan maneh?</value>
+	</string>
+	<string key="AskConvert">
+		<value> Saha nu rek dihasut keur milu disekte maneh?</value>
+	</string>
+	<string key="DiscussWith">
+		<!--Leave the leading spaces here please-->
+		<!-- 0 - teammate names -->
+		<value> Pastikeun maneh diskusi jeung si {0}</value>
+	</string>
+	<string key="And">
+		<!--this is paired with "DiscussWith".  again, leave the spaces!-->
+		<value> jeung </value>
+	</string>
+	<string key="RoleInfoCursed">
+		<value> Terkutuk😾 (Cursed), Maneh ngan saukur warga desa biasa tapi maneh boga kekuatan jang berubah jadi Ajag
+		Syaratna, maneh kudu di geel ku Ajag ngarah bisa berubah.</value>
+	</string>
+	<string key="RoleInfoDetective">
+		<value> Maneh jadi Detektip🕵 (Detektif), nu bisa nuturkeun batur terus maneh bakal nyaho saha si eta sabenerna.
+		Unggal maneh nuturkeun batur, pasukan Ajag bisa nyaho yen maneh teh sabenerna detektip!</value>
+	</string>
+	<string key="RoleInfoDrunk">
+		<value> Tukang Mabok🍻 (Drunk). Maneh jadi Warga Desa nu beuki mabok, unggal poe maneh nginum miras nepikeun ka daging maneh kalapis ku alkohol lamun Ajag nepi ngegel maneh, pasukan Ajag moal bisa ngamangsa peuting berikutna.</value>
+	</string>
+	<string key="RoleInfoGuardianAngel">
+		<value> Anjeun jadi Malaikat Pelindung👼 (Guardian Angel). Unggal peuting anjeun bisa ngalindungi 1 pemaen nu kira-kira bakal diserang. 
+		Tapi, mun anjeun milih ngalindungi jelema jahat, gede kamungkinan anjeun bakal dipaehan. </value>
+	</string>
+	<string key="RoleInfoGunner">
+		<value> Tukang Bedil🔫 (Gunner). Maneh bisa nembak saha wae nu kira-kira dicurigai, tapi inget maneh ngan boga 2 pelor, sing apik sora bedil maneh bakal kadenge ku kabeh warga. (Kaabus penjahat)</value>
+	</string>
+	<string key="RoleInfoHarlot">
+		<value> Ublag💋 (Harlot) Unggal peuting maneh bisa ngadatangan pemaen jang diajak sare bareng.
+		Tapi mun maneh abus ka imah Ajag atawa imah nu keur diserang ku Ajag, maneh bakal milu maot.
+		Pastikeun unggal peuting maneh kaluar, supaya penjahat teu bisa nyerang maneh ka imah.</value>
+	</string>
+	<string key="RoleInfoTraitor">
+		<value> Maneh jadi Pengkhianat🖕 (Traitor)! Warga desa nu bakal jadi Ajag lamun kabeh Ajag geus paeh.
+			Dukun Sakti👳 bakal melong rupa maneh nyaeta Ajag sanajan maneh jadi Warga Desa keneh.</value>
+	</string>
+	<string key="RoleInfoWolf">
+		<value> EDAN SIA JADI AJAG 🐺 (Serigala)!! Unggal peuting maneh bisa milih saha nu rek di hakan, wilujeng seubeuh wa :(</value>
+	</string>
+	<string key="RoleInfoSeer">
+		<value> Maneh jadi Dukun Sakti👳 (Penerawang). Jelema nu bisa melong sarta ngabongkar peran pemaen pilihanna. Omat, cukup Budak Indigo nu nyaho yen maneh teh Dukun!</value>
+	</string>
+	<string key="RoleInfoVillager">
+		<value> Maneh ngan saukur jadi Warga Desa👱 (Villager), macul unggal poe, diajak abus aliran sesat, di pitnah batur, terus jadi parab serigala. Tarimakeun weh wa :(</value>
+	</string>
+	<string key="RoleInfoTanner">
+		<value> Budak Gelo👺 (Tanner). Budak gelo, tukang ngahibur kabeh jalma di desa. Lamun warga nepikeun ka salah ngaduruk maneh, warga bakal sedih terus maneh otomatis meunang sorangan.</value>
+	</string>
+	<string key="RoleInfoWildChild">
+		<value> Maneh jadi Budak Labil👶 (Wild Child), nu butuh belaian jeung panutan hirup. Pilih panutan maneh pas game mimiti mulai. Mun panutan maneh nepi ka paeh, maneh bakal berubah jadi Ajag.</value>
+	</string>
+	<string key="RoleInfoBeholder">
+		<value> Budak Indigo👁 (Beholder), maneh boga indra ka-6 nu bisa ngabantuan maneh saha Dukun Sakti anu asli. </value>
+	</string>
+	<string key="RoleInfoApprenticeSeer">
+		<value> Anjeun jadi Murid Dukun Sakti🙇 (Murid Penerawang). Mun Dukun nu asli maot, tugas anjeun nyaeta ngagantikeunna jadi Dukun Sakti.</value>
+	</string>
+	<string key="RoleInfoCultist">
+		<value> Maneh jadi Kultus👤 (Cultist), pengikut aliran sesat nu percaya lamun maranehna nyembah Gunung pasti bakalan bagja. Cuci otak warga desa terus hasut kabeh warga jang jadi Kultus👤, lamun kabeh serigala paeh terus kabeh warga desa jadi anggota maneh, maneh meunang!</value>
+	</string>
+	<string key="RoleInfoCultistHunter">
+		<value> Maneh jadi Pemburu Kultus💂 (Cultist Hunter)! Caritana aya aliran sesat/kultus di desa maneh. Tugas maneh nyaeta ngaburu kabeh kultus nepi beak, lamun salah sahiji ti maranehna ngajak maneh gabung, maneh bisa ngabela diri terus maehan anggota kultus nu pang anyarna 💂.</value>
+	</string>
+	<string key="LynchTime">
+		<!-- 0 - number of seconds -->
+		<value> Wanci sariak layung.
+			Kabeh warga kumpul di bale desa, keur milih saha nu arek dituduh.
+			Warga desa dibere waktu {0} detik jang milih!</value>
+	</string>
+	<string key="DayTime">
+		<!-- 0 - number of seconds -->
+		<value> Wanci manceran.
+			Warga desa gaduh waktos {0} detik kanggo nuduh / ngabela diri / ngambek dituduh.
+			Pokokna pis lop en gawl weh daks!</value>
+	</string>
+	<string key="NightTime">
+		<!-- 0 - number of seconds -->
+		<value> Wanci sareureuh kolot.
+			Kabeh warga desa geus sarare, hate teu tenang, pikiran bingung, sabab arembung jadi parab penjahat peuting ieu.
+			Pemaen peuting: maraneh boga waktu {0} detik keur ngajalankeun tugasna!</value>
+	</string>
+	<string key="LynchKill">
+		<!-- 0 - player name -->
+		<!-- 1 - player role -->
+		<value> Kabeh warga geus satuju keur ngeleketek {0} ku bedog, bari dialungan ku tai kotok, teu lila manehna jol maot. {1}.</value>
+		<value> Kabeh warga milih {0} jang dipaehan poe ieu.
+			{0} dibaledog ku ban setum jeung beusi karatan. {1}.</value>
+		<value> Kabeh warga geus ngabuleudkeun pilihan keur ngaduruk si {0}.
+			{0} dialungkeun kana hawu nu badag kacida. {1}.</value>
+	</string>
+	<string key="LynchTie">
+		<value> Warga loba teuing lalajo pilem acaacanehinehi, nepikeun ka bingung nyokot keputusan.
+			Euweuh nu dieksekusi peuting ieu. ZBL,KZL,huvt.!</value>
+		<value> Warga balueng mikiran nasib kahareupna. Peuting ieu, euweuh nu dieksekusi.</value>
+	</string>
+	<string key="NoLynchVotes">
+		<value> Aneh, euweuh nu milih jang digantung peuting ieu...</value>
+	</string>
+	<string key="DetectiveEaten">
+		<!-- 0 - victim name -->
+		<value> Warga soak melong loop anu peupeus, tanda pengenal detektip murag, berikut loba getih di hareupeun bale desa.
+			{0} si Detektip🕵, geus paeh dihakan Ajag🐺.</value>
+	</string>
+	<string key="GuardianEaten">
+		<!-- 0 - victim name -->
+		<value> Bulu bodas tingarapung di Desa poe ieu, jasad salah sahiji warga kapanggih dina jero bedug.
+			Kanyataan pait, {0} si Malaikat Pelindung👼 geus paeh dihakan Ajag tadi peuting.</value>
+	</string>
+	<string key="GunnerEaten">
+		<!-- 0 - victim name -->
+		<value> Isuk-isuk pas warga kabeh kalaluar ti imahna, warga manggihan bedil nu pinuh ku getih.
+			{0}, dihakan Ajag. Tukang Bedil🔫 geus paeh. . .</value>
+	</string>
+	<string key="SeerEaten">
+		<!-- 0 - victim name -->
+		<value> Pas isuk-isuk, bau menyan ka ambeu ti imah {0}.
+			Ngagolepak di luhur buku mantera, jeung alat-alat dudukunan.
+			{0} si Dukun Sakti👳 paeh dihakan ku Ajag.</value>
+	</string>
+	<string key="DrunkEaten">
+		<!-- 0 - victim name -->
+		<value> Isuk-isuk kabeh warga harudang ngambeu bau ceribel.
+			Awak {0} kapanggih ngagolepak di jero tempat dugem, Si Tukang Mabok 🍻 paeh dihakan Ajag</value>
+	</string>
+	<string key="FoolEaten">
+		<!-- 0 - victim name -->
+		<value> Pas isuk-isuk, bau nu aneh ka ambeu ti imah {0}.
+			Ngagolepak di luhur buku majalah porno, pabalatak kartu gapleh, warga nyaksian Dukun Lepus🃏 geus paeh ku Ajag🐺.</value>
+	</string>
+	<string key="DefaultEaten">
+		<!-- 0 - victim name -->
+		<!-- 1 - victim role -->
+		<value> Poe ieu isuk-isuk geus kaambeu bau cikiih ti hareupeun imah salah sahiji warga desa, tapi lain bau hangseur acan diguyur.
+			{0} si {1} paeh, diriung ku laleur bari eusi beuteung tingburinyai ka taneuh, HAPHAPHAPHAP🐺</value>
+		<value>Poe ieu, warga melong jasad {0} si {1} di hareupeun bale desa.  Manehna di paeh di hakan ku Ajag🐺 HAPHAPHAPHAP!</value>
+		<value>Warga Desa ngarasa aneh, si {0} teu milu ngariung poe ieu.  Kabeh warga abus ka imahna terus melong si {0} geus acak-acakan di hakan Ajag🐺 {1} HAPHAPHAPHAP!</value>
+	</string>
+	<string key="HunterKilledCultist">
+		<!-- 0 - victim name -->
+		<value> Bau aneh kaambeu ti imah {0}.
+			Warga mariksa ka jero imahna terus manggihan {0} geus teu walakaya ngadenge ceramah ti Pemburu Kultus💂
+			Kultus 👤 pengikut ajaran sesat, paeh !</value>
+	</string>
+	<string key="NoAttack">
+		<value> Heran, euweuh nu diserang kamari peuting.
+			Sawareh atoh tapi, sawareh warga hariwang bari silih pelongkeun kusabab curiga.</value>
+	</string>
+	<string key="CursedBitten">
+		<value> Maneh digegel serigala, maneh teu jadi paeh kusabab kutukan maneh mampu ngarobah maneh jadi Ajag. Wilujeng Seubeuh🐺!</value>
+	</string>
+	<string key="WolfTeam">
+		<!-- 0 - teammate names -->
+		<value> Tim Ajag maneh nyaeta: {0}</value>
+	</string>
+	<string key="CursedBittenToWolves">
+		<!-- 0 - victim name -->
+		<value> {0} geus digegel ku Pasukan Ajag.
+			Manehna teu paeh kusabab boga kutukan jang berubah jadi Ajag! Wilujeng, jumlah pasukan Ajag nambahan.</value>
+	</string>
+	<string key="WolvesEatYou" isgif="true">
+		<value> Maneh keur galau sagalau galau na nepikeun ka poho ngonci panto imah.
+			🐺 Ajag geus ngahakan maneh.
+			Maneh paeh dina kaayaan mikiran mantan. HAPHAPHAPHAP!</value>
+		<value> Peuting-peuting, maneh ngarasa aya jelema di kolong kasur. Panasaran, maneh turun terus melong saha nu aya dihandap kasur.
+			HAPHAPHAPHAP! Maneh dibetot ka kolong terus dihakan ku Ajag🐺!</value>
+		<value> Maneh balik telat peuting ieu, dijalan balik maneh dituturkeun ku rupa anu pikasieuneun.
+			Ajag luncat bari tuluy ngahakan maneh. HAPHAPHAPHAP!🐺</value>
+		<value> Tengah peuting, niat rek meuli kopi ka warung.
+			Ti luhureun tangkal cau, jol aya sosok nu ngagajleng terus ngahakan maneh. HAPHAPHAPHAP!🐺</value>
+	</string>
+	<string key="WolvesEatDrunk">
+		<!-- 0 - victim name -->
+		<value> Sial!! si {0} nyaeta Tukang Mabok!!🍻 Maneh nyobaan balik ka imah tuluy ngalempreh, 
+			maneh kudu istirahat peuting engke..</value>
+	</string>
+	<string key="GuardWolf">
+		<value> Maneh milih jang ngalindungi Ajag, tapi Ajag kalahkah malik nyerang maneh. 
+			Kitu rasana ngabela jelema nu salah teh. Watirr!</value>
+	</string>
+	<string key="GuardSaved">
+		<!-- 0 - saved player name -->
+		<value> Maneh berhasil ngalindungi {0} ti serangan jelama jahat!</value>
+		<value> Kekuatan sakti maneh bisa ngusir serangan jahat ka {0}.
+			{0} teu jadi diserang!</value>
+	</string>
+	<string key="GuardNoAttack">
+		<!-- 0 - player name -->
+		<value>Si {0} teu diserang, maneh bisa sare tibra peuting ieu💤.</value>
+	</string>
+	<string key="GuardEmptyHouse">
+		<!-- 0 - player name -->
+		<value> Anjeun ka imah si {0}, ternyata euweuh sasaha di imah!</value>
+	</string>
+	<string key="GuardSavedYou">
+		<value> Malaikat Pelindung👼 geus ngajaga maneh tadi peuting, 
+			Pasukan Ajag indit mangpret sieuneun melong sosok jangkung badag jeung pikasieuneun nangtung di hareupeun imah maneh!</value>
+	</string>
+	<string key="HarlotEaten">
+		<!-- 0 - player name -->
+		<value> Ublag teu bisa kaluar peuting ieu, jadi Pasukan Ajag nu datang ka imahna, {0} paeh dihakan Ajag.</value>
+	</string>
+	<string key="HarlotNotHome">
+		<!-- 0 - player name -->
+		<value> Aneh pisan, imah {0} ternyata kosong molongpong! Teu jadi meunang jatah weh.</value>
+	</string>
+	<string key="HarlotFuckWolf">
+		<!-- 0 - player name -->
+		<value> Maneh ka imah {0} jang jatah ikeh-ikeh👄, tapi maneh salah milih target.
+			Maneh nyampeurkeun Ajag! Teu lila, maneh jol dihakan ku Ajag.</value>
+	</string>
+	<string key="HarlotFuckedWolfPublic">
+		<!-- 0 - player name -->
+		<value> {0} salah asup imah!! Lainna ngeunah, kalah kapanggih di kandang bagong 🐷</value>
+		<value> {0} jadi bahan gosip di desa, manehna kapanggih paeh dina kaayaan dibuligir.</value>
+	</string>
+	<string key="HarlotFuckedVictimPublic">
+		<!-- 0 - harlot name -->
+		<!-- 1 - victim name -->
+		<value> {0} susulumputan ka imah {1} jang jatah peuting 👄.
+			Geus kagok sange, pek teh si {1} keur diLEGLEG ku Ajag🐺!
+			{0} geus balik arah rek lumpat, eh ajagna bijil dihareupeun.
+			{0} paeh dihakan ku Ajag..ni watirrr..</value>
+	</string>
+	<string key="HarlotVisitNonWolf">
+		<!-- 0 - target name -->
+		<value> Maneh ka imah {0} ari pek teh manehna lain Ajag, maneh tutumpakan nepi ngoprot kesang kamari peuting. ENAKDEK! 💕</value>
+		<value> Maneh asup ka imah {0}, maneh mareuman lampu kamarna, maneh nutupan panonna, leungeunna di talian, maneh mukakeun baju jeung calana na, terus maneh numpakan manehna. Jatah sange kabayar, ENAKDEK! 💕</value>
+	</string>
+	<string key="HarlotVisitYou">
+		<value>Tengah peuting, aya jelema nu asup ka imah maneh. Kusabab tunduh, maneh teu mikiran saha nu asup.
+			Teu lila, maneh ujug ujug ngarasa tiris kusabab baju, calana, jeung jeroan maneh aya nu mukakeun, 
+			panon di tutupan ku kaen. Nu "handap" jadi baseuh, pek teh Ublag💋 keur beraksi ngajak maneh "cinta satu malam".</value>
+	</string>
+	<string key="DetectiveCaught">
+		<!-- 0 - detective name -->
+		<value> Maneh ngarasa diperhatikun ku si {0}. Perasaan maneh nyebutkeun yen si {0} nyaeta Detektip!🕵 </value>
+	</string>
+	<string key="DetectiveSnoop">
+		<!-- 0 - target name -->
+		<!-- 1 - target role -->
+		<value>Hasil gawe maneh ngabuktikeun yen si {0} nyaeta {1} </value>
+	</string>
+	<string key="HarlotShot">
+		<!-- 0 - gunner's name -->
+		<!-- 1 - Harlot's name -->
+		<value>Tukang Bedil🔫 ngewa kacida ka tukang jinah, akhirna si {0} ngarahkeun bedilna kana sirah si {1}. DOR! Ublag paeh dibedil🔫</value>
+	</string>
+	<string key="DefaultShot">
+		<!-- 0 - Gunner's name -->
+		<!-- 1 - target name -->
+		<!-- 2 - Target's revealed name ( Target was a role) -->
+		<value>Ujug-ujug, kadenge sora bedil. DOR! Warga kalaluar melongkeun {0} keur nangtung bari ngarahkeun bedil ka si {1}. {1} nyaeta {2}.</value>
+	</string>
+	<string key="WolfWins" isgif="true">
+		<value>Kaulinan dimeunangkeun ku Ajag 🐺! AUUUUUUUUUUU!!</value>
+	</string>
+	<string key="WolvesWin" isgif="true">
+		<value>Kaulinan dimeunangkeun ku Pasukan Ajag 🐺! AAAUUUUUUU!!</value>
+	</string>
+	<string key="VillageWins" isgif="true">
+		<value> HOREEE! Kabeh penjahat geus paraeh.
+			Kaulinan dimeunangkeun ku Warga Desa 👱!</value>
+	</string>
+	<string key="TannerWins" isgif="true">
+		<value> RASAKEUN! maneh milih maehan Budak Gelo👺!
+			Warga sedih euweuh deui nu bisa ngalawak di desa!
+			Warga ngarelakeun Budak Gelo👺 meunang.</value>
+		<value> "Hahahahaha...warga belegug!" Gorowok salah sahiji jelema.
+			Manehna atoh kusabab diduruk, warga soak pas nyaho yen si eta teh Budak Gelo👺 Budak Gelo meunang!</value>
+	</string>
+	<string key="RemainingPlayersEnd">
+		<value> Pemaen nu hirup keneh:</value>
+	</string>
+	<string key="CultistVotedConvert">
+		<!-- 0 - Voter's name -->
+		<!-- 1 - target name -->
+		<value>{0} milih ngahasut {1}</value>
+	</string>
+	<string key="CultConvertCultHunter">
+		<!-- 0 - Yougest Cultist (killed)'s name' -->
+		<!-- 1 - CultHunter's name -->
+		<value>{0} dikirim ku sekte jang ngajak {1}... Pekteh, manehna Pemburu Kultus💂! {0} diruqiyah nepi modyar!</value>
+	</string>
+	<string key="CultHunterKilledCultVisit">
+		<!-- 0 - Youngest Cultist's name -->
+		<!-- 1 - Number of cultists left -->
+		<value>{0} datang ka imah maneh niatna arek ngarekrut maneh, tapi maneh geus nyiapkeun jimat jang ngaruqiyah.
+			Kultus👤 modyar diruqiyah...Sesa kultus nu hirup {1}!</value>
+	</string>
+	<string key="CultConvertYou">
+		<value> Kultus👤 geus ngarekrut maneh jadi pengikut ajaran sesat! Ayeuna, maneh jadi anggota aliran sesat.
+			Unggal peuting maneh bisa milih jang ngajakan batur abus milu ka sekte.</value>
+	</string>
+	<string key="CultTeam">
+		<!-- 0 - Number of cultists -->
+		<value>Anggota Kultus: {0}</value>
+	</string>
+	<string key="CultJoin">
+		<!-- 0 - new cultist's name -->
+		<value>{0} geus gabung milu disekte Kultus👤! Ciee nambahan yeuh.</value>
+	</string>
+	<string key="CultVisitEmpty">
+		<!-- 0 - Newest cultist's name -->
+		<!-- 1 - target name -->
+		<value>{0} geus dikirim jang ngajak {1} gabung milu sekte👤... Tapi pas datang, euweuh jelema diimahna!</value>
+	</string>
+	<string key="CultWins" isgif="true">
+		<value>Kabeh Ajag geus paeh, warga nu hirup keneh geus milu gabung di sekte Kultus...
+			Game dimeunangkeun ku Kultus 👤!</value>
+	</string>
+	<string key="HunterVisitDead">
+		<!-- 0 - target name -->
+		<value>Maneh indit ka imah si {0} jang maehan Kultus, tapi jelemana geus paeh tiheula!</value>
+	</string>
+	<string key="HunterFindCultist">
+		<!-- 0 - target name -->
+		<value>Maneh indit ka imah si {0}, maneh curiga sabab manehna keur maca ajian make basa Sunda Kuna! Maneh langsung maca jimat jang ngelingan si {0}. Kultus👤 kapanasan dibacaan jimat nepikeun ka paeh.</value>
+	</string>
+	<!-- 0 - target name -->
+	<string key="HunterFailedToFind">
+		<value>Maneh indit ka imah si {0}, tapi euweuh hal-hal anu aneh, maneh balik deui ka imah.</value>
+	</string>
+	<string key="WildChildToWolves">
+		<!-- 0 - Werechild's name -->
+		<value>Panutan si {0} geus paeh! Manehna teu bisa narima kanyataan, bakat ku teu bisa ngontrol emosi maneh berubah jadi Ajag🐺!</value>
+	</string>
+	<string key="WildChildTransform">
+		<!-- 0 - role's name -->
+		<!-- 1 - teamate's names -->
+		<value>Si {0} geus paeh!
+			Kubakat napsu maneh berubah jadi Ajag🐺! Balad maneh nu anyar nya eta: {1}</value>
+	</string>
+	<!-- Villager, Drunk, Harlot, Seer, Traitor, GuardianAngel, Detective, Wolf, Cursed, Gunner, Tanner, Fool, WildChild, Beholder, ApprenticeSeer, Cultist, CultistHunter-->
+	<string key="Villager">
+		<value>Warga Desa 👱</value>
+	</string>
+	<string key="Drunk">
+		<value>Tukang Mabok🍻</value>
+	</string>
+	<string key="Harlot">
+		<value>Ublag💋</value>
+	</string>
+	<string key="Seer">
+		<value>Dukun Sakti👳</value>
+	</string>
+	<string key="Traitor">
+		<value>Pengkhianat🖕</value>
+	</string>
+	<string key="GuardianAngel">
+		<value>Malaikat Pelindung👼</value>
+	</string>
+	<string key="Detective">
+		<value>Detektip🕵</value>
+	</string>
+	<string key="Wolf">
+		<value>Ajag🐺</value>
+	</string>
+	<string key="Cursed">
+		<value>Terkutuk😾</value>
+	</string>
+	<string key="Gunner">
+		<value>Tukang Bedil🔫</value>
+	</string>
+	<string key="Tanner">
+		<value>Budak Gelo👺</value>
+	</string>
+	<string key="Fool">
+		<value>Dukun Lepus🃏</value>
+	</string>
+	<string key="WildChild">
+		<value>Budak Labil👶</value>
+	</string>
+	<string key="Beholder">
+		<value>Budak Indigo👁</value>
+	</string>
+	<string key="ApprenticeSeer">
+		<value>Murid Dukun🙇</value>
+	</string>
+	<string key="Cultist">
+		<value>Kultus👤</value>
+	</string>
+	<string key="CultistHunter">
+		<value>Pemburu Kultus💂</value>
+	</string>
+	
+	<!-- These are for the player list -->
+	<string key="RanAway">
+		<value>🏃 Mangpret</value>
+	</string>
+	<string key="Dead">
+		<value>💀 Paeh</value>
+	</string>
+	<string key="Alive">
+		<value>🙂 Hirup</value>
+	</string>
+	<string key="PlayersAlive">
+		<value>Pemaen nu hirup keneh</value>
+	</string>
+	
+	<!-- New strings 4 MAY 2016-->
+	<string key="Mason">
+		<value>Tukang Batu👷</value>
+	</string>
+	<string key="RoleInfoMason">
+		<value>Maneh jadi Tukang Batu(Mason)👷.  Maneh saukur warga biasa, tapi maneh bisa nyaho saha wae perkumpulan Tukang Batu (Mason).</value>
+	</string>
+	<string key="MasonEaten">
+		<!-- 0 - dead man's name -->
+		<value>🌤 Pas kabeh warga harudang, warga ngambeu bau mayit di luhur para, getihna muncrat kamana-mana. {0} si Tukang batu👷 geus paeh dihakan Ajag🐺</value>
+	</string>
+	<string key="MasonTeam">
+		<value>Balad Tukang Batu👷 maneh nyaeta: {0}</value>
+	</string>
+	
+	<!-- new strings May 6 2016-->
+	<string key="CultTargetDead">
+		<!-- 0 - Youngest cultists name -->
+		<value>Anggota anyar maneh nyobaan ngajak si {0}. Tapi si {0} geus paeh, ditinggali loba getih dimamana, jeung aya tapak koetan Ajag🐺</value>
+	</string>
+	<string key="GuardBlockedWolf">
+		<!-- 0 - target's name -->
+		<value>Kabeh Ajag arindit jang ngahakan si {0}, tapi Pasukan Ajag kalah panggih jeung wujud nu pikasieuneun. Ternyata eta Malaikat Pelindung👼, ajag lalumpatan ngabret balik ka imahna.</value>
+	</string>
+	
+	<!--new strings May 9 2016-->
+	<string key="CultUnableToConvert">
+		<!-- 0 - newest  -->
+		<!-- 1 - target's name -->
+		<value>Maneh nitah {0} jang ngajak {1} milu ajaran sesat, tapi jelemana sholeh/sholehah pisan jadi moal mungkin jang direkrut, {0} teu bisa ngarekrut manehna :(</value>
+	</string>
+	
+	<!--new string May 12 2016-->
+	<string key="NameExists">
+		<!-- 0 - target's name -->
+		<!-- 1 - name -->
+		<value>@{1}, pemaen nu make ngaran {0} geus aya, cobaan ganti heula ngaran nu sejen.</value>
+	</string>
+	<string key="HarlotDiscoverCult">
+		<!-- 0 - target's name -->
+		<value>Maneh indit ka imah si {0} arek tutumpakan... Pas geus beres ngarasakeun nikmat, maneh ninggali loba alat-alat pemujaan kultus dikamarna......</value>
+	</string>
+	
+	<!-- new string May 13 2016-->
+	<string key="Was">
+		<value>nya eta</value>
+	</string>
+	<string key="GenericDeathNoReveal">
+		<!-- 0 - Dead's name -->
+		<value>Kabeh warga harudang, jeung nyadar lamun si {0} euweuh... Kabeh lalumpatan ka imah si {0} jang ngacek. {0} geus paeh.</value>
+		<value>Isuk-isuk, Warga manggihan jasad si {0} ngagolepak di imahna, tapi warga teu nyaho naon penyebab paehna...</value>
+	</string>
+	<string key="MasonConverted">
+		<!-- 0 - mason's name -->
+		<value>Aneh pisan.... Si {0} teu datang di kumpulan Tukang Batu👷</value>
+		<value>Nahanya {0} teu datang di Arisan Tukang Batu👷</value>
+	</string>
+	
+	<!-- new string May 16 2016-->
+	<string key="FleeDisabled">
+		<value>Punten baraya, teu meunang kabur pas keur ulin, flee geus dinonaktifkeun ku Admin!</value>
+		<value> Rek kamana siah! Teu meunang kabur pas kaulinan geus mulai kehed!</value>
+	</string>
+	<string key="IsDead">
+		<!-- used when gunner shoots a player -->
+		<value>geus maot</value>
+	</string>
+	
+	<!-- MORE STRINGS May 16, 2016 -->
+	<string key="AdminAdded">
+		<!-- 0 - target's name -->
+		<value>{0} geus ditambahkeun jadi admin. Ketik /config jang ganti setelan group ieu.</value>
+	</string>
+	<string key="AlreadyInGame">
+		<!-- 0 - target's name -->
+		<value>Maneh geus join di game ieu!({0})</value>
+	</string>
+	<string key="MultipleGames">
+	  <value>Grup ieu boga leuwih ti 1 game, salah sahiji bakal di anulir.</value>
+	</string>
+	<string key="GroupQueue">
+		<!-- 0 - target's name -->
+		<!-- 1 - target's name -->
+		<value>Grup ieu keur dina posisi antre, sabar tungguan nya daks.  Posisi: {0} / {1}</value>
+	</string>
+	<string key="MaintBreak">
+		<!-- 0 - target's name -->
+		<value>Punten, Grup bade di ayakeun perbaikan/maintenis. Samentaun teu tiasa di angge maen game. \nNgantosan {0} game deui beres...\nMangga klik @werewolfdev kanggo informasi anu langkung jelas.</value>
+	</string>
+	<string key="MaxGames">
+		<!-- 0 - target's name -->
+		<!-- 1 - target's name -->
+		<value>Hampura, pemaen geus maksimal ({0}).\nPosisi di antrean: {1} / {1}</value>
+	</string>
+	<string key="SkipQueue">
+		<!-- 0 - target's name -->
+		<value>{0} ieu grup nu diheulakeun, teu kudu milu ngantri! KUYLAH YAKALI GAK KUY!</value>
+	</string>
+	<string key="NoGame">
+		<value>Euweuh kaulinan nu keur dipaenkeun. Mulai kaulinan anyar, ketik /startgame atawa mulai mode rusuh/chaos ketik /startchaos</value>
+	</string>
+	<string key="GroupAdminOnly">
+		<value> Embung ah, maneh mah lain admin. </value>
+	</string>
+	<string key="ShuttingDown">
+		<value>Sa geus game ieu, Bot arek dipareuman sakeudeung jang mulai perbaikan/maintenis.</value>
+	</string>
+	<string key="ShuttingDownUpdate">
+		<value>Sa geus game ieu, Bot arek dipareuman sakeudeung jang mulai update (otomatis).</value>
+	</string>
+	<string key="NullIdAdmin">
+		<value>UserId teu dieusian /null.Maneh yakin ngirim ieu jadi balesan?</value>
+	</string>
+	<string key="AlreadyAdmin">
+		<!-- 0 - target's name -->
+		<value>{0} geus jadi admin!</value>
+	</string>
+	<string key="NotAdmin">
+		<!-- 0 - target's name -->
+		<value>{0} lain admin!</value>
+	</string>
+	<string key="AdminRemoved">
+		<!-- 0 - target's name -->
+		<value>{0} dihapus tina daptar admin.</value>
+	</string>
+	<string key="LanguageSet">
+		<!-- 0 - language's name -->
+		<value>Basa diganti jadi {0}</value>
+	</string>
+	<string key="NoSeer">
+		<value>Asli ieu mah Dukun Sakti na leungit!</value>
+	</string>
+	<string key="TimesUp">
+		<value>Waktuna beak!</value>
+		<value>Geus telat keur ngajawab!</value>
+	</string>
+	
+	<!-- new strings june 10 2016 -->
+	<string key="RoleInfoCupid">
+		<value> Maneh jadi Lebe 💘 (Cupid). 
+			Tukang ngawinkeun batur di desa, pokona maneh bisa milih saha wae nu rek di jodokeun. Pilih 2 pemaen nu arek di kawinkeun terus nyieun maranehna setia nepi maot. Kusabab setia nepi maot, mun salah sahiji pasangan eta paeh, pasangana bakal milu maot.</value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value> Tukang Maling🎭 (Doppleganger). Maneh kudu milih pemaen nu arek di paling identitas na. Engke maneh otomatis berubah lamun pemaen pilihan maneh paeh!
